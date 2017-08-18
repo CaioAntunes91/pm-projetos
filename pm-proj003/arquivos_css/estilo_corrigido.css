@@ -1,0 +1,65 @@
+body{
+    background-color: #745cc1;
+    font-family: 'Roboto';
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+img{
+    margin: 50px 0 0 0;/*Basta que a margem da imagem seja inserida no topo pois os outros espaçamentos serão tratados dentro do formulário*/
+}
+figure{ /*O elemento 'figure' foi utilizado com objetivo da semantica estrutural, entretanto foi necessário zerar seus espaçamentos que já vem padronizado*/
+    padding: 0;
+    margin: 0;
+}
+form{
+    padding: 50px 50px 6px 50px;
+}
+/*.texto_usuario{
+    border-bottom: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: thin;
+    width: 248px;
+    margin: 0 0 55px 35px;
+}*/
+input[class=texto]{
+    background-color: #745cc1;
+    width: 100%;/*É necesário inserir essa propriedade pois o elemento 'input' vem com um tamanho padronizado, impedindo a elasticidade do layout*/
+    color: #ffffff;
+    border: none;
+    border-bottom: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: thin;
+    margin-bottom: 55px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+}
+input[class=texto]::placeholder{
+    color: #ffffff;
+}
+input[type=submit]{
+    color: #494949;
+    background-color: #ffffff; /*O valor dessa propriedade deveria ser 'transparent' pois teria o mesmo efeito e no caso de mudanças simplificaria
+    text-align: center; Não é necessário alinhar aqui, já foi feito no 'body'*/
+    width: 247px; /*A largura desse elemento foi mantida porque não é desejável, devido à questões estéticas, que o botão seja elástico*/
+    height: 50px;
+    border: none; /*Inserido para retirar a borda padrão de um botão*/
+    border-radius: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 1px 1px #000000;
+    /*align-content: center; Regra desnecessária nesse código*/
+}
+/*.botao{
+    width: 247px;
+    margin: 0 0 6px 38px;
+}*/
+a{/*Toda a configuração anterior pode ser aplicada no elemento 'a' e a centralização foi realizada dentro do 'body'*/
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 0 1px 1px #000;
+}

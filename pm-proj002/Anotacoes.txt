@@ -1,0 +1,13 @@
+1ºpasso: Abrir design no avocode para obter detalhes da configuração
+
+2ºpasso: Elaborar código html utilizando imagem de cratera salva, a qual tanto a mesma quanto o título, devem redirecionar para a notícia http://bit.ly/pm-proj002-noticia
+
+3ºpasso: Criar o CSS e formatar o HTML de acordo com o design apresentado (deve ficar o mais parecido possível, não necessariamente igual)
+
+4ºpasso: Depois que o HTML e o CSS estiverem prontos, crie mais 2 cards de notícias diferentes.
+
+Dica1: perceba que o card possui bordas arredondadas e uma pequena sombra para dar a impressão de relevo
+ 
+Dica2: A fonte utilizada é a "Open Sans", a qual deve ser carregada a partir do site http://fonts.google.com/
+
+	

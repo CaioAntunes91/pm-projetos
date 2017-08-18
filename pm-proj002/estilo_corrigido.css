@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: darkgray;/*Ao identificar a cor no Avocode, o código dela é copiado, podendo ser simplesmente colado aqui no editor de texto*/
+    padding: 10px;
+    font-family: 'Open Sans'; /*Basta indicar o Open Sans entre aspas simples após ele ter sido adicionado no html*/
+    margin-left: 512px;
+}
+.notícia{ /*É importante destacar aqui a forma que uma classe é mencionada no CSS*/
+    background: #ffffff; /*novamente o código hexadecimal foi copiado diretamente do Avocode*/
+    border-radius: 5px 5px 5px 5px; /*É necessário indicar um valor para cada quina do elemento*/
+    box-shadow: 0 1px 1px #fff;/*Essa tag possui 5 parametros, sendo que um está omitido por possuir valor zero*/
+    margin-bottom: 5px;
+    width: 300px;
+}
+.notícia .figura img{
+    width: 100%; /*O tamanho da imagem foi dimensionado com base no elemento que ela está compondo, no caso a tag'div da classe notícia está fazendo esse papel*/
+    border-radius: 5px 5px 0 0; /*Foi necessário arredondar a borda da imagem tambem pois a mesma sobrepõe a borda do elemento 'div'*/
+}
+.notícia .texto{
+    padding: 0 8px 8px 8px; /*Esses são os espeçamentos internos da tag 'section', ficando pendente apenas distanciar o elemento do outro*/
+    
+}
+.notícia .detalhes{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    list-style-image: url(imagens/reuters-150x150.jpg);
+}
+.notícia .local{
+    font-weight: bold;
+    font-size: 14px;
+}
+.notícia .detalhes img{
+    width: 14px;
+}
+.notícia .tempo{
+    color: #cacaca;
+    font-size: 12px;
+    margin-left: 8px
+}
+.notícia h2{
+    font-size: 17px;
+    color: #c61207;
+    margin-bottom: 10px;
+    line-height: 18px; /*Propriedade responsável pela distância entre as linhas do texto do elemento*/
+}
+.notícia a{
+    text-decoration: none;
+}
+.notícia p{
+    font-size: 13px;
+    color: #6e6e6e;
+    margin: 0 0 15px 0;
+}
+/*a.link_texto{
+    text-decoration: none;
+}*/
+/*h2{
+    color: #c50f04;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    width: 283px;
+    opacity: 100%;
+    margin-left: 9px;
+    margin-right: 8px;
+    margin-top: 7px;
+    margin-bottom: 9px;
+    
+}*/
+/*span.local{
+    font-weight: 600;
+    font-size: 14px;
+    color: #383838;
+    margin-top: 10px;
+    margin-left: 9px;  
+}*/
+/*span.tempo{
+    color: #c1c1c1;
+    font-weight: 300;
+    font-size: 11px;   
+}*/
+/*p{
+    color: #333333;
+    opacity: 100%;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    margin-left: 9px;
+    margin-right: 8px;
+}*/
+

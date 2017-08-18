@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Project002</title>
+    <link rel="stylesheet" href="estilo_corrigido.css">
+    <!--É aconselhável que a fonte seja adicionada logo no html antes da elaboração do CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+<!--Foi substituído a tag 'article' pela 'div' pois o objetivo é estritamente englobar os elementos em uma "caixa"-->
+<div class="notícia">
+ <!--A tag 'header' foi retirada pois o efeito semântico já foi dado com a tag'figure', ficando redundante utilizar a tag 'header'-->
+  <figure class="figura"> <!--Efeito unicamente semântico, já que a tag'a' já está englobando a imagem-->
+   <a href="http://bit.ly/pm-proj002-noticia" class="link_imagem">
+   <!--O atributo de largura foi retirado para que o tamanho seja ajustado no código CSS-->
+   <img src="imagens/Artigo1.jpg" alt="Imagem exigida no projeto" title="Cratera 'Porta do Inferno'">
+   </a>
+   </figure>
+   <section class="texto"> <!--Foi mantida a tag 'section' por ser considerada um efeito semântico melhor e funcionar da mesma forma que a tag 'div'-->
+   <div class="detalhes"> <!--Foi adicionada esta 'tag' para englobar as informações antes do título, apesar de ter se mostrado desnecessário-->
+   <span class="local">RÚSSIA</span>
+   <span class="tempo">HÁ 25 MINUTOS</span>
+   </div>
+   <a href="http://bit.ly/pm-proj002-noticia" class="link_texto">
+    <h2>Cratera 'Porta do Inferno' continua crescendo e revela como a Terra era há 200 mil anos</h2>
+    </a>
+    <p>Buraco de 1 km na Sibéria dá pistas sobre impacto do aquecimento global.</p>
+    </section>
+    </div>
+<div class="notícia">
+  <figure class="figura">
+   <a href="http://g1.globo.com/carros/noticia/uniao-europeia-diz-que-nao-planeja-cotas-para-carros-eletricos.ghtml">
+   <img src="imagens/Artigo2.jpg" alt="Imagem de vaga para carro elétrico" title="Vaga de estacionamento destinada a modelos elétricos (Foto:RETEURS/Tyroen Siu)">
+   </a>
+   </figure>
+   <section class="texto">
+    <div class="detalhes">
+    <!--<img src="imagens/reuters-150x150.jpg" alt="Logo marca de Reuters">-->
+    <li><span class="local">Por Reuters</span>
+    <span class="tempo">HÁ 48 MINUTOS</span></li> <!--É importante manter o compromisso semântico! Nessa reportagem foi colado o nome do autor-->
+    </div>
+    <a href="http://g1.globo.com/carros/noticia/uniao-europeia-diz-que-nao-planeja-cotas-para-carros-eletricos.ghtml" class="link_texto">
+    <h2>União Européia diz que não planeja cotas para carros elétricos</h2>
+    </a>
+    <p>Alguns países já anunciaram intenção de restringir a venda de modelos a diesel ou gasolina nas próximas décadas</p>
+    </section>
+</div>
+<div class="notícia">
+  <figure class="figura">
+   <a href="http://g1.globo.com/espirito-santo/noticia/acidente-grave-deixa-feridos-na-rodovia-darly-santos-em-vila-velha.ghtml">
+   <img src="imagens/Artigo3.jpg" alt="Imagem mostrando acidente mencionado na reportagem" title="Acidente na rodovia Darly Santos em Vila Velha">
+   </a>
+   </figure>
+   <section class="texto">
+   <div class="detalhes">
+    <span class="local">ES</span>
+    <span class="tempo">HÁ MENOS DE 1 MINUTO</span>
+    </div>
+    <a href="http://g1.globo.com/espirito-santo/noticia/acidente-grave-deixa-feridos-na-rodovia-darly-santos-em-vila-velha.ghtml" class="link_texto">
+    <h2>Acidente deixa um morto e 4 feridos na Rodovia Darly Santos, em Vila Velha</h2>
+    </a>
+    <p>Seis ambulâncias e um caminhão do Corpo de Bombeiros atuam no socorro das vítimas. Acidente envolvendo dois carros aconteceu na manhã desta sexta-feira (11)</p>
+    </section>
+    </div>
+</body>
+</html>
